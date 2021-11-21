@@ -33,6 +33,9 @@ export const DataOverlay: React.FC<DataOverlayProps> = ({
 
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
+    if (name === "") {
+      setName("Example");
+    }
     const newTimer = {
       id: `${counters.length}`,
       name: `${name}`,
