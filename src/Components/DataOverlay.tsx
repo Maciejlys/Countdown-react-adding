@@ -69,12 +69,20 @@ export const DataOverlay: React.FC<DataOverlayProps> = ({
       {isOverlay && (
         <div className="overlay">
           <form className="center-overlay inputs" onSubmit={handleSubmit}>
-            <input type="text" onChange={(e) => setName(e.target.value)} />
+            <div className="input-txt">
+              <input
+                type="text"
+                onChange={(e) => setName(e.target.value)}
+                placeholder="Name"
+              />
+            </div>
             <input type="date" onChange={(e) => setDate(e.target.value)} />
             <input type="time" onChange={(e) => setTime(e.target.value)} />
-            <button type="submit" className="btn-add">
-              <BiAlarmAdd className="add" />
-            </button>
+            <div className="add-container">
+              <button type="submit" className="btn-add">
+                <BiAlarmAdd className="add" />
+              </button>
+            </div>
           </form>
         </div>
       )}

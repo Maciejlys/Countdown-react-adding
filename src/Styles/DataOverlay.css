@@ -22,9 +22,10 @@
   max-height: 30rem;
   gap: 0.5rem;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
   flex-direction: column;
   flex-wrap: wrap;
+  gap: 1.5rem;
 }
 .single-counter {
   border: 0.01rem solid white;
@@ -46,5 +47,27 @@ h4 {
 }
 
 .inputs {
-  gap: 3rem;
+  display: flex;
+  align-items: center;
+  justify-self: center;
+}
+
+.input-txt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input-txt input {
+  border: 0;
+  border-bottom: 1px solid #555;
+  background: transparent;
+  width: 50%;
+  padding: 8px 0 5px 0;
+  font-size: 16px;
+  color: #fff;
+}
+.input-txt input:focus {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #e74c3c;
 }
