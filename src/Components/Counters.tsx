@@ -2,7 +2,7 @@ import React from "react";
 import { Counter } from "./Counter";
 import "../Styles/Counters.css";
 
-interface CountersProps {
+export interface CountersProps {
   counters: SingleCounter[];
   index: number;
 }
