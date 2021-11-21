@@ -11,7 +11,7 @@ const getNames = (data: SingleCounter[]) => {
 };
 
 const getLocalStorage = () => {
-  const temp = JSON.parse(localStorage.getItem("data") || "{}");
+  const temp = JSON.parse(localStorage.getItem("data") || "[]");
 
   if (JSON.stringify(temp) === "[]") {
     localStorage.setItem("data", JSON.stringify(data));
