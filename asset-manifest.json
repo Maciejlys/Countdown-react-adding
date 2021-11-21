@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/CountdownTimer-react-adding/static/css/main.97a4f390.chunk.css",
-    "main.js": "/CountdownTimer-react-adding/static/js/main.482a3232.chunk.js",
-    "main.js.map": "/CountdownTimer-react-adding/static/js/main.482a3232.chunk.js.map",
-    "runtime-main.js": "/CountdownTimer-react-adding/static/js/runtime-main.f448d07d.js",
-    "runtime-main.js.map": "/CountdownTimer-react-adding/static/js/runtime-main.f448d07d.js.map",
-    "static/js/2.fb3128cb.chunk.js": "/CountdownTimer-react-adding/static/js/2.fb3128cb.chunk.js",
-    "static/js/2.fb3128cb.chunk.js.map": "/CountdownTimer-react-adding/static/js/2.fb3128cb.chunk.js.map",
-    "index.html": "/CountdownTimer-react-adding/index.html",
-    "static/css/main.97a4f390.chunk.css.map": "/CountdownTimer-react-adding/static/css/main.97a4f390.chunk.css.map",
-    "static/js/2.fb3128cb.chunk.js.LICENSE.txt": "/CountdownTimer-react-adding/static/js/2.fb3128cb.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/CountdownTimer-react-adding/static/media/bg.a474513d.jpg"
+    "main.css": "/Countdown-react-adding/static/css/main.d17484c6.chunk.css",
+    "main.js": "/Countdown-react-adding/static/js/main.482a3232.chunk.js",
+    "main.js.map": "/Countdown-react-adding/static/js/main.482a3232.chunk.js.map",
+    "runtime-main.js": "/Countdown-react-adding/static/js/runtime-main.99b53e63.js",
+    "runtime-main.js.map": "/Countdown-react-adding/static/js/runtime-main.99b53e63.js.map",
+    "static/js/2.fb3128cb.chunk.js": "/Countdown-react-adding/static/js/2.fb3128cb.chunk.js",
+    "static/js/2.fb3128cb.chunk.js.map": "/Countdown-react-adding/static/js/2.fb3128cb.chunk.js.map",
+    "index.html": "/Countdown-react-adding/index.html",
+    "static/css/main.d17484c6.chunk.css.map": "/Countdown-react-adding/static/css/main.d17484c6.chunk.css.map",
+    "static/js/2.fb3128cb.chunk.js.LICENSE.txt": "/Countdown-react-adding/static/js/2.fb3128cb.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/Countdown-react-adding/static/media/bg.a474513d.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.f448d07d.js",
+    "static/js/runtime-main.99b53e63.js",
     "static/js/2.fb3128cb.chunk.js",
-    "static/css/main.97a4f390.chunk.css",
+    "static/css/main.d17484c6.chunk.css",
     "static/js/main.482a3232.chunk.js"
   ]
 }
