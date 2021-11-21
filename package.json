@@ -2,6 +2,7 @@
   "name": "countdown-react",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://maciejlys.github.io/CountdownTimer-react-adding",
   "dependencies": {
     "@testing-library/jest-dom": "^5.15.0",
     "@testing-library/react": "^11.2.7",
@@ -21,7 +22,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -b gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [

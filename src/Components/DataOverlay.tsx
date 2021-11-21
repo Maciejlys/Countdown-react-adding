@@ -4,7 +4,6 @@ import { SingleCounter } from "./Counters";
 import { AiFillDelete } from "react-icons/ai";
 import { BsFillPlusCircleFill } from "react-icons/bs";
 import { BiAlarmAdd } from "react-icons/bi";
-import events from "events";
 
 interface DataOverlayProps {
   counters: SingleCounter[];
@@ -55,7 +54,7 @@ export const DataOverlay: React.FC<DataOverlayProps> = ({
                 key={counter.id}
                 className="btn-add"
                 onClick={() => removeCounter(counter.id)}>
-                <AiFillDelete />
+                <AiFillDelete className="btn-delete" />
               </button>
             </div>
           );
@@ -69,11 +68,14 @@ export const DataOverlay: React.FC<DataOverlayProps> = ({
       {isOverlay && (
         <div className="overlay">
           <form className="center-overlay inputs" onSubmit={handleSubmit}>
+            <h1>Add your countdown:</h1>
             <div className="input-txt">
               <input
                 type="text"
                 onChange={(e) => setName(e.target.value)}
                 placeholder="Name"
+                maxLength={25}
+                autoFocus
               />
             </div>
             <input type="date" onChange={(e) => setDate(e.target.value)} />

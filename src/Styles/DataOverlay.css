@@ -30,7 +30,7 @@
 .single-counter {
   border: 0.01rem solid white;
   background-color: rgba(22, 27, 34, 0.6);
-  box-shadow: 0 5px 15px rgba(255, 255, 255, 0.1s);
+  box-shadow: 0 5px 15px rgba(255, 255, 255, 0.1);
   border-radius: 2rem;
   padding: 0.5rem;
   display: flex;
@@ -52,22 +52,23 @@ h4 {
   justify-self: center;
 }
 
-.input-txt {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+input {
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 1rem 1rem;
+  width: 190px;
 }
-.input-txt input {
-  border: 0;
-  border-bottom: 1px solid #555;
-  background: transparent;
-  width: 50%;
-  padding: 8px 0 5px 0;
-  font-size: 16px;
-  color: #fff;
-}
-.input-txt input:focus {
-  border: none;
+
+input:focus {
   outline: none;
-  border-bottom: 1px solid #e74c3c;
+  box-shadow: 0 0.2rem 1rem rgb(136, 136, 136);
+}
+
+.add-container {
+  margin-top: 2rem;
+}
+
+.btn-delete {
+  font-size: 2rem;
 }

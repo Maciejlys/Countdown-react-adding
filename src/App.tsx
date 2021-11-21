@@ -15,7 +15,6 @@ const getLocalStorage = () => {
 
   if (JSON.stringify(temp) === "[]") {
     localStorage.setItem("data", JSON.stringify(data));
-    console.log(data);
 
     return data;
   }
