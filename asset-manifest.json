@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/CountdownTimer-react-adding/static/css/main.97a4f390.chunk.css",
-    "main.js": "/CountdownTimer-react-adding/static/js/main.35d408bd.chunk.js",
-    "main.js.map": "/CountdownTimer-react-adding/static/js/main.35d408bd.chunk.js.map",
+    "main.js": "/CountdownTimer-react-adding/static/js/main.482a3232.chunk.js",
+    "main.js.map": "/CountdownTimer-react-adding/static/js/main.482a3232.chunk.js.map",
     "runtime-main.js": "/CountdownTimer-react-adding/static/js/runtime-main.f448d07d.js",
     "runtime-main.js.map": "/CountdownTimer-react-adding/static/js/runtime-main.f448d07d.js.map",
     "static/js/2.fb3128cb.chunk.js": "/CountdownTimer-react-adding/static/js/2.fb3128cb.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.f448d07d.js",
     "static/js/2.fb3128cb.chunk.js",
     "static/css/main.97a4f390.chunk.css",
-    "static/js/main.35d408bd.chunk.js"
+    "static/js/main.482a3232.chunk.js"
   ]
 }
