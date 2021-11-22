@@ -4,7 +4,7 @@ Small project in react and typescript where you can add your own events and a ta
 that event will appear!
 
 This is more extensive version of my last project wchich you can see there:
-[CountdownTimer-react](https://github.com/Maciejlys/CountdownTimer-react)
+[CountdownTimer-react](https://github.com/Maciejlys/CountdownTimer-react)\
 And this project you can see here:
 [Countdown-react-adding](https://maciejlys.github.io/Countdown-react-adding/)
 
