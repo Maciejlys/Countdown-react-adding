@@ -3,23 +3,25 @@
 Small project in react and typescript where you can add your own events and a tab with countdown to\
 that event will appear!
 
-This is more extensive version of my last project wchich you can see there:\
-[CountdownTimer-react](https://github.com/Maciejlys/CountdownTimer-react).
+This is more extensive version of my last project wchich you can see there:
+[CountdownTimer-react](https://github.com/Maciejlys/CountdownTimer-react)\
+And this project you can see here:
+[Countdown-react-adding](https://maciejlys.github.io/Countdown-react-adding/)
 
 # What changed?
 
 In previous version there were countdowns that were in json file that I could edit but sadly\
-if someone wanted his own timer he had to leave empty handed.\
+if someone wanted his own timer he had to leave empty handed.
 
-But this time I made use of local storage and that made saving your own counters possible!
+But this time I made use of local storage and that made saving your own countdowns possible!\
 I also changed id from flat out indexes to uuidv4 because of some indexes collision while creating\
-another timer
+another timer.
 
 # What have I learned?
 
 I learned alot while doing this project.\
 I am getting used to typescript more and my react is getting better.\
-I also learned uses of localstorage and I plan to use that knowledge in my next projcet!
+I also learned uses of localstorage and I plan to use that knowledge in my next project!
 
 If I would redo the project I would definitely split existing code into more parts.\
 The later in the project I went the more code I had to reuse because I didn't split it\
