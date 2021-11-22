@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/Countdown-react-adding/static/css/main.d17484c6.chunk.css",
-    "main.js": "/Countdown-react-adding/static/js/main.b709967f.chunk.js",
-    "main.js.map": "/Countdown-react-adding/static/js/main.b709967f.chunk.js.map",
+    "main.css": "/Countdown-react-adding/static/css/main.30186969.chunk.css",
+    "main.js": "/Countdown-react-adding/static/js/main.ae0e71e0.chunk.js",
+    "main.js.map": "/Countdown-react-adding/static/js/main.ae0e71e0.chunk.js.map",
     "runtime-main.js": "/Countdown-react-adding/static/js/runtime-main.99b53e63.js",
     "runtime-main.js.map": "/Countdown-react-adding/static/js/runtime-main.99b53e63.js.map",
-    "static/js/2.6ce6be94.chunk.js": "/Countdown-react-adding/static/js/2.6ce6be94.chunk.js",
-    "static/js/2.6ce6be94.chunk.js.map": "/Countdown-react-adding/static/js/2.6ce6be94.chunk.js.map",
+    "static/js/2.4cfe3260.chunk.js": "/Countdown-react-adding/static/js/2.4cfe3260.chunk.js",
+    "static/js/2.4cfe3260.chunk.js.map": "/Countdown-react-adding/static/js/2.4cfe3260.chunk.js.map",
     "index.html": "/Countdown-react-adding/index.html",
-    "static/css/main.d17484c6.chunk.css.map": "/Countdown-react-adding/static/css/main.d17484c6.chunk.css.map",
-    "static/js/2.6ce6be94.chunk.js.LICENSE.txt": "/Countdown-react-adding/static/js/2.6ce6be94.chunk.js.LICENSE.txt",
+    "static/css/main.30186969.chunk.css.map": "/Countdown-react-adding/static/css/main.30186969.chunk.css.map",
+    "static/js/2.4cfe3260.chunk.js.LICENSE.txt": "/Countdown-react-adding/static/js/2.4cfe3260.chunk.js.LICENSE.txt",
     "static/media/App.css": "/Countdown-react-adding/static/media/bg.a474513d.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.99b53e63.js",
-    "static/js/2.6ce6be94.chunk.js",
-    "static/css/main.d17484c6.chunk.css",
-    "static/js/main.b709967f.chunk.js"
+    "static/js/2.4cfe3260.chunk.js",
+    "static/css/main.30186969.chunk.css",
+    "static/js/main.ae0e71e0.chunk.js"
   ]
 }
