@@ -11,7 +11,7 @@ And this project you can see here:
 # What changed?
 
 In previous version there were countdowns that were in json file that I could edit but sadly\
-if someone wanted his own timer he had to leave empty handed.\
+if someone wanted his own timer he had to leave empty handed.
 
 But this time I made use of local storage and that made saving your own counters possible!
 I also changed id from flat out indexes to uuidv4 because of some indexes collision while creating\
