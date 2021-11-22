@@ -33,7 +33,7 @@ function App() {
       setCounters(getLocalStorage());
       setNames(getNames(getLocalStorage()));
     } else {
-      getLocalStorage();
+      window.location.reload();
     }
   };
 
