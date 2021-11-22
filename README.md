@@ -5,7 +5,6 @@ that event will appear!
 
 This is more extensive version of my last project wchich you can see there:
 [CountdownTimer-react](https://github.com/Maciejlys/CountdownTimer-react)
-https://maciejlys.github.io/Countdown-react-adding/
 And this project you can see here:
 [Countdown-react-adding](https://maciejlys.github.io/Countdown-react-adding/)
 
