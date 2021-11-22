@@ -3,8 +3,8 @@
 Small project in react and typescript where you can add your own events and a tab with countdown to\
 that event will appear!
 
-This is more extensive version of my last project wchich you can see there:\
-[CountdownTimer-react](https://github.com/Maciejlys/CountdownTimer-react).
+This is more extensive version of my last project wchich you can see there:
+[CountdownTimer-react](https://github.com/Maciejlys/CountdownTimer-react)
 
 # What changed?
 
