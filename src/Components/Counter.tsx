@@ -20,7 +20,7 @@ export const Counter: React.FC<SingleCounter> = ({
       setTargetTime(() => {
         setIsLoading(false);
         let newDate = countDownInterval(dueDate, dueTime);
-        newDate.map((date) => {
+        newDate.forEach((date) => {
           if (date < 0) {
             setIsExpired(true);
             clearInterval(interval);

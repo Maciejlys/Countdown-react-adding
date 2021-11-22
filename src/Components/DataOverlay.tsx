@@ -4,6 +4,7 @@ import { SingleCounter } from "./Counters";
 import { AiFillDelete } from "react-icons/ai";
 import { BsFillPlusCircleFill } from "react-icons/bs";
 import { BiAlarmAdd } from "react-icons/bi";
+const { v4: uuidv4 } = require("uuid");
 
 interface DataOverlayProps {
   counters: SingleCounter[];
@@ -33,11 +34,14 @@ export const DataOverlay: React.FC<DataOverlayProps> = ({
 
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
+    console.log(counters.length);
+
+    if (counters.length === 8) return;
     if (name === "") {
       setName("Example");
     }
     const newTimer = {
-      id: `${counters.length}`,
+      id: `${uuidv4()}`,
       name: `${name}`,
       dueDate: `${convertDate(date)}`,
       dueTime: `${time}`,

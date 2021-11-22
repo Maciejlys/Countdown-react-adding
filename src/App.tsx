@@ -27,7 +27,6 @@ function App() {
 
   const removeCounter = (id: string) => {
     const newCounters = counters.filter((c: SingleCounter) => c.id !== id);
-    console.log(newCounters);
     localStorage.setItem("data", JSON.stringify(newCounters));
     if (JSON.stringify(newCounters) !== "[]") {
       setCounters(getLocalStorage());
