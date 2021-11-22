@@ -21,7 +21,7 @@ another timer.
 
 I learned alot while doing this project.\
 I am getting used to typescript more and my react is getting better.\
-I also learned uses of localstorage and I plan to use that knowledge in my next projcet!
+I also learned uses of localstorage and I plan to use that knowledge in my next project!
 
 If I would redo the project I would definitely split existing code into more parts.\
 The later in the project I went the more code I had to reuse because I didn't split it\
