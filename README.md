@@ -21,6 +21,8 @@ another timer.
 
 I learned alot while doing this project.\
 I am getting used to typescript more and my react is getting better.\
+Also this was probably my first time, going back to done project and trying to make it better and add more features.
+Previously when I made my first web app in plain javascript I don't think I could go back and add more features so quickly.
 I also learned uses of localstorage and I plan to use that knowledge in my next project!
 
 If I would redo the project I would definitely split existing code into more parts.\
