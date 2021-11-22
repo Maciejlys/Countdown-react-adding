@@ -14,8 +14,8 @@ In previous version there were countdowns that were in json file that I could ed
 if someone wanted his own timer he had to leave empty handed.
 
 But this time I made use of local storage and that made saving your own countdowns possible!\
-I also changed id from flat out indexes to uuidv4 because of some indexes collision while creating\
-another timer
+I also changed id from flat out indexes to uuidv4\ because of some indexes collision while creating\
+another timer.
 
 # What have I learned?
 
