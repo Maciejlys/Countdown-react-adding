@@ -77,3 +77,13 @@ input:focus {
 .btn-delete {
   font-size: 2rem;
 }
+
+.btn-back {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.back {
+  font-size: 3rem;
+}

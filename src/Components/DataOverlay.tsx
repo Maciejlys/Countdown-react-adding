@@ -4,12 +4,14 @@ import { SingleCounter } from "./Counters";
 import { AiFillDelete } from "react-icons/ai";
 import { BsFillPlusCircleFill } from "react-icons/bs";
 import { BiAlarmAdd } from "react-icons/bi";
+import { AiFillBackward } from "react-icons/ai";
 const { v4: uuidv4 } = require("uuid");
 
 interface DataOverlayProps {
   counters: SingleCounter[];
   removeCounter: (id: string) => void;
   addCounter: (counter: SingleCounter) => void;
+  setIsOpen: (isOpen: boolean) => void;
 }
 
 const convertDate = (date: string) => {
@@ -26,6 +28,7 @@ export const DataOverlay: React.FC<DataOverlayProps> = ({
   counters,
   removeCounter,
   addCounter,
+  setIsOpen,
 }) => {
   const [isOverlay, setIsOverlay] = useState(false);
   const [name, setName] = useState("Example");
@@ -34,12 +37,8 @@ export const DataOverlay: React.FC<DataOverlayProps> = ({
 
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    console.log(counters.length);
-
     if (counters.length === 8) return;
-    if (name === "") {
-      setName("Example");
-    }
+    setName("Example");
     const newTimer = {
       id: `${uuidv4()}`,
       name: `${name}`,
@@ -73,6 +72,14 @@ export const DataOverlay: React.FC<DataOverlayProps> = ({
           <BsFillPlusCircleFill className="add" />
         </button>
       </div>
+      <div className="btn-back">
+        <button
+          type="button"
+          className="btn-add"
+          onClick={() => setIsOpen(false)}>
+          <AiFillBackward className="add  back" />
+        </button>
+      </div>
       {isOverlay && (
         <div className="overlay">
           <form className="center-overlay inputs" onSubmit={handleSubmit}>
@@ -94,6 +101,14 @@ export const DataOverlay: React.FC<DataOverlayProps> = ({
               </button>
             </div>
           </form>
+          <div className="btn-back">
+            <button
+              type="button"
+              className="btn-add"
+              onClick={() => setIsOverlay(!isOverlay)}>
+              <AiFillBackward className="add  back" />
+            </button>
+          </div>
         </div>
       )}
     </div>

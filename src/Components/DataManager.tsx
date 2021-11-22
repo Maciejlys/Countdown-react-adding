@@ -26,6 +26,7 @@ export const DataManager: React.FC<DataManagerProps> = ({
           addCounter={addCounter}
           removeCounter={removeCounter}
           counters={counters || []}
+          setIsOpen={setIsOpen}
         />
       ) : (
         <></>
