@@ -51,7 +51,7 @@ export const DataOverlay: React.FC<DataOverlayProps> = ({
 
   return (
     <div className="overlay">
-      <h1 style={{ textAlign: "center" }}>Yours countodwns:</h1>
+      <h1 style={{ textAlign: "center" }}>Yours countdowns:</h1>
       <div className="center-overlay counterer">
         {counters.map((counter) => {
           return (
